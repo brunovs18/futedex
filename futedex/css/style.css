@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Comic+Neue:ital,wght@1,300&family=Inter:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bungee Spice', cursive;
+}
+
+
+body{
+    text-align: center;
+    background: linear-gradient(to bottom, #04f5ff, #fff);
+    min-height: 100vh;
+
+
+}
+
+main{
+   
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+
+
+}
+
+.pokedex{
+    width: 100%;
+    max-width: 425px;
+
+}
+
+.bola{
+    width: 25%;
+    position: absolute;
+    left: 35%;
+    bottom: 50%;
+    height: 18%;
+
+}
+
+.time{
+    position: absolute;
+    font-weight: 600;
+    top: 54%;
+    right: 27%;
+    font-size: clamp(8px, 5vw, 25px);
+}
+
+.form{
+    position: absolute;
+    width: 65%;
+    top: 65%;
+    left: 13.5%;
+
+}
+
+.search{
+    width: 100%;
+    padding: 3%;
+    outline: none;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: clamp(8px, 5vw, 1rem);
+    box-shadow:-3px 4px 0 #888 ;
+
+}
+
+.buttons{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    width: 65%;
+    transform: translate(-57%, 0);
+    display: flex;
+    gap: 20px;
+
+}
+
+.button{
+    width: 50%;
+    padding: 4%;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: clamp(8px, 5vw, 1rem);
+    background-color: #444;
+    box-shadow:-3px 4px 0 #222 ;
+
+
+}
+
+.button:active{
+    box-shadow: inset -4px 4px 0 #222;
+    font-size: 0.9rem;
+
+}
+
+.nuvem{
+    width: 100%;
+    max-width: 2200px;  
+    position: absolute; 
+    right: 0;
+   
+
+}
